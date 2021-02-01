@@ -392,7 +392,7 @@ end section sup_menu and sup of sup_menu of big
     .navbar .main_menu .nav_toggle .icon{
         right: 320px;
     }
-  
+
     li:hover .sup_menu .unorder_sup_menu li .order{
         width: 220px;
         left: -220px;
@@ -493,7 +493,6 @@ end section sup_menu and sup of sup_menu of big
     .main_menu .show ul > li:hover .sup_menu{
         width: 180px;
     }
-   
 }
 
 /* start style section scroll to top*/
@@ -555,6 +554,133 @@ end section sup_menu and sup of sup_menu of big
 
 /* start style section scroll to top*/
 
+/* start style section welcome*/   
+
+.welcome{
+    text-align: center;
+    padding: 40px 0 20px;
+    background-color: #EEE;
+    margin-bottom: 40px;
+}
+
+.welcome h1{
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(185, 185, 185, 0.5);
+    font-size: 35px;
+}
+
+.welcome p{
+    color: var(--pra_color);
+    margin-top: 20px;
+}
+
+/* end style section welcome*/   
+
+/* start style section news */
+
+.news{
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+
+.news .new{
+    text-align: right;
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.news .new .item{
+    margin: 50px 0;
+}
+
+.news .item .images{
+    width: 75px;
+    height: 75px;
+    margin: 0 auto 20px;
+}
+
+.news .item .images a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+} 
+
+.news .item h5{
+    margin-bottom: 15px;
+}
+
+.news .item h5 a{
+    color: #555;
+    text-decoration: none;
+}
+
+.news .item p{
+    color: var(--pra_color);
+    font-size: 14px;
+}
+
+.news .item a{
+    text-decoration: none;
+}
+
+/* end style section news */
+
+/* start style section university see */
+
+.system-message{
+    margin-top: 25px;
+}
+
+.system-message .contain-message{
+    margin-top: 25px;
+    color: var(--words-color);
+    text-align: right;
+}
+
+.contain-message .top {
+    list-style: none;
+    border-bottom: 1px solid #666;
+    background-color: var(--main_color);
+}
+
+.contain-message .top li{
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.contain-message .top li.active{
+    border: 1px solid #666;
+    border-bottom: none;
+    position: relative;
+    bottom: -1px;
+    z-index: 9;
+    background-color: #FFF;
+    color: var(--pra_color);
+}
+
+.contain-message .hide{
+    display: none;
+}
+
+#first-div p,#seconde-div p{
+    color: var(--pra_color);
+}
+.contain-message .orLi,.contain-message .orLi li ul{
+    margin: 5px 20px;
+}
+
+.contain-message .orLi li,
+.contain-message .orLi li ul li{
+    color: var(--pra_color);
+}
+
+/* end style section university see */
+
 /*  start section footer */
 
 .footer{
@@ -567,7 +693,7 @@ end section sup_menu and sup of sup_menu of big
     text-align: left;
     color: var(--pra_color);
     background-size: cover;
-    margin-top: 150px;
+    margin-top: 50px;
     padding-top: 50px;
 }
 
