@@ -26,16 +26,16 @@ function scrollToTop() {
     $(window).scrollTop(0); 
 } 
 
-// setInterval(function(){
-//     if(window.innerWidth>991){
-//         if(x.classList.contains("show")){
-//             x.classList.remove("show")
-//     }
-//     }
-// })
+setInterval(function(){
+    if(window.innerWidth>991){
+        if(x.classList.contains("show")){
+            x.classList.remove("show")
+    }
+    }
+})
 
 window.onscroll = function(){
-    if(window.pageYOffset >= 2950){
+    if(window.pageYOffset >= 1600){
         $('.timer').countTo({form:0,to:35000,speed:2000,refreshInterval: 10,});
         $('.timer1').countTo({form:0,to:1000,speed:2000,refreshInterval: 10,});
         $('.timer2').countTo({form:0,to:5000,speed:2000,refreshInterval: 10,});

@@ -681,6 +681,58 @@ end section sup_menu and sup of sup_menu of big
 
 /* end style section university see */
 
+
+/*  start statistic*/
+.stats{
+    background:url(../photo/bg3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 300px;
+    margin-top: 50px; 
+    margin-bottom: 50px;   
+}
+
+.stats .state{
+    background:  rgba(2,2,2,0.6);
+    color:#FFF;
+    min-height: 300px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    
+}
+
+.stats .data  {
+    color: #B6B5B5;
+    transition:  all 0.5 ease-in-out;
+    margin: 20px 0;
+}
+
+.stats h3 {
+    color: #fff;
+    font-size: 40px!important;
+    line-height: 50px!important;
+    margin-bottom: 2px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.stats h6 {
+    margin-top: 20px;
+}
+
+.stats  h4 {
+    font-weight: 500!important;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.stats .i{
+    font-size: 60px;
+    color: var(--second_color) !important;
+}
+/*  end statistic*/
+
+
 /*  start section footer */
 
 .footer{
