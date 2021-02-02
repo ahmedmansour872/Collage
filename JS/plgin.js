@@ -34,16 +34,7 @@ setInterval(function(){
     }
 })
 
-window.onscroll = function(){
-    if(window.pageYOffset >= 1600){
-        $('.timer').countTo({form:0,to:35000,speed:2000,refreshInterval: 10,});
-        $('.timer1').countTo({form:0,to:1000,speed:2000,refreshInterval: 10,});
-        $('.timer2').countTo({form:0,to:5000,speed:2000,refreshInterval: 10,});
-        $('.timer3').countTo({form:0,to:3675,speed:2000,refreshInterval: 10,});
-    }else{
-        $('.timer').countTo({form:0,to:0,speed:2000,refreshInterval: 10,});
-        $('.timer1').countTo({form:0,to:0,speed:2000,refreshInterval: 10,});
-        $('.timer2').countTo({form:0,to:0,speed:2000,refreshInterval: 10,});
-        $('.timer3').countTo({form:0,to:0,speed:2000,refreshInterval: 10,});
-    }
-}
+
+$('.timer').countTo({form:0,to:35000,speed:2000,refreshInterval: 10,});
+$('.timer1').countTo({form:0,to:1000,speed:2000,refreshInterval: 10,});
+$('.timer2').countTo({form:0,to:5000,speed:2000,refreshInterval: 10,});
