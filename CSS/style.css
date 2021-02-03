@@ -971,3 +971,85 @@ hr{
 
 
 /*end section footer*/
+
+
+/*  start section style breadcrumb  */
+
+.breadcrumb-top{
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.breadcrumb-top .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(214, 214, 214, 0.6);
+    z-index: 2;
+}
+
+.breadcrumb-top .breadcrumb,
+.breadcrumb-top .active{
+    background-color:transparent;
+    font-size: 20px;
+    position: relative;
+    z-index: 3;
+    justify-content: center;
+}
+
+.breadcrumb-top .breadcrumb .breadcrumb-item a,
+.breadcrumb-top .active a{
+    color: var(--pra_color);
+    text-decoration: none;
+}
+
+.breadcrumb-top .active{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+    padding: 0;
+    font-weight: 700;
+}
+
+/*  end section style breadcrumb  */
+
+/*  start section style mainBody  */
+
+.mainBody,.message{
+    text-align: right;
+}
+
+.mainBody .contant{
+    background-color:rgba(214, 214, 214, 0.6);
+}
+
+.mainBody .contant p{
+    padding: 5px 10px;
+    color: var(--pra_color);
+}
+
+/*  end section style mainBody  */
+
+/*  start section style message  */
+
+.message .contant-message{
+    color: var(--pra_color);
+}
+
+.message .ph{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.message .ph img{
+    width: 100%;
+    height: 100%;
+}
+/*  end section style message  */
+
